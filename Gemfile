@@ -30,7 +30,9 @@ gem 'jquery-rails'
 gem 'jquery-turbolinks'
 gem 'material_icons'
 gem 'devise'
-
+gem 'activeadmin'
+gem 'pg'
+gem 'ancestry'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password

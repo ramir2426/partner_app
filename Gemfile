@@ -29,6 +29,7 @@ gem 'materialize-sass'
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
 gem 'material_icons'
+gem 'devise'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'

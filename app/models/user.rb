@@ -1,5 +1,6 @@
 class User < ApplicationRecord
 	attr_accessor :referral_code
+  has_ancestry
 	before_create :ensure_referral_code
 	
 	# Include default devise modules. Others available are:

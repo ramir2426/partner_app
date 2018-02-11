@@ -52,6 +52,8 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
+    ancestry (3.0.1)
+      activerecord (>= 3.2.0)
     arbre (1.1.1)
       activesupport (>= 3.0.0)
     arel (8.0.0)
@@ -246,6 +248,7 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin
+  ancestry
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)

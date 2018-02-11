@@ -58,7 +58,25 @@ end
 #   permitted
 # end
 
-form do |f|
+index do
+    selectable_column
+    id_column
+    column :first_name
+    column :last_name
+    column :email
+    column :partner_percentage
+    column :is_admin
+    column :reff_code
+    column :ancestry
+    column :current_sign_in_at
+    column :sign_in_count
+    column :created_at
+    actions defaults: true do |user|
+    	link_to "New Payment", new_admin_transaction_log_path(user_id: user.id), :method => :get
+    end
+  end
+
+	form do |f|
 		f.inputs "Admin Details" do
 			f.input :first_name
       f.input :last_name
